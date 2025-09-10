@@ -2,6 +2,9 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Card from "./Card";
 import Container from "./Container";
+import img1 from "./assets/image.png";
+import img2 from "./assets/image2.png";
+import img3 from "./assets/image3.png";
 
 
 function App() {
@@ -14,7 +17,7 @@ function App() {
       level: "Intermediate",
       duration: "8 days / 7 nights",
       price: "$400 – $600",
-      image: "https://via.placeholder.com/500x300",
+      image: img1,
     },
     {
       id: 2,
@@ -24,7 +27,7 @@ function App() {
       level: "Novice",
       duration: "12 days / 11 nights",
       price: "$800 – $999",
-      image: "https://via.placeholder.com/500x300",
+      image: img2,
     },
     {
       id: 3,
@@ -34,7 +37,7 @@ function App() {
       level: "Intermediate",
       duration: "7 days / 6 nights",
       price: "$300 – $400",
-      image: "https://via.placeholder.com/500x300",
+      image: img3,
     },
   ];
   return(
